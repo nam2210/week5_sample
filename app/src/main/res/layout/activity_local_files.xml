@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LocalFiles.LocalFilesActivity">
+
+    <Button
+        android:id="@+id/btn_write_internal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write Internal"
+        />
+
+    <Button
+        android:id="@+id/btn_read_internal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read Internal"
+        />
+
+    <Button
+        android:id="@+id/btn_write_external"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write External"
+        />
+
+    <Button
+        android:id="@+id/btn_read_external"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read External"
+        />
+
+
+</LinearLayout>
